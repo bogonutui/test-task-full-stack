@@ -8,7 +8,7 @@ function formatHeader(key: string): string {
     .replace(/^./, (str) => str.toUpperCase());
 }
 
-export function generateColumns<T extends Record<string, unknown>>(
+export function generateColumns<T extends Record<string, string>>(
   data: T[]
 ): ColumnDef<T>[] {
   if (!data || data.length === 0) {
