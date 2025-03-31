@@ -31,20 +31,32 @@ The csv files for testing are in the project folder
 
 ### Client:
 
-client/
-├── src/
-│ ├── api/ # API request logic
-│ ├── components/ # Reusable components (e.g., Dropzone, Table)
-│ ├── pages/ # pplication pages (Login, Dashboard)
-│ ├── App.tsx # Main application component
-│ ├── main.tsx # entry point for the frontend
+# client/
+
+## ├── src/
+
+### │ ├── api/ # API request logic
+
+### │ ├── components/ # Reusable components (e.g., Dropzone, Table)
+
+### │ ├── pages/ # Application pages (Login, Dashboard)
+
+### │ ├── App.tsx # Main application component
+
+### │ ├── main.tsx # Entry point for the frontend
 
 ### Server:
 
-server/
-├── controllers/ # Request handling logic
-├── middlewares/ # Middleware functions (e.g., authentication)
-├── models/ # MongoDB models
-├── routes/ # Route definitions
-├── utils/ # Utility functions (e.g., database connection)
-├── server.js # Server entry point
+# server/
+
+## ├── controllers/ # Request handling logic
+
+## ├── middlewares/ # Middleware functions (e.g., authentication)
+
+## ├── models/ # MongoDB models
+
+## ├── routes/ # Route definitions
+
+## ├── utils/ # Utility functions (e.g., database connection)
+
+## ├── server.js # Server entry point
